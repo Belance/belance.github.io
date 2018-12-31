@@ -28,13 +28,13 @@
   "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
+    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 },
     { "addr": "0x8dd5fbCe2F6a956C3022bA3663759011Dd51e73E", "name": "TUSD", "fullName": "TrueUSD", "decimals": 18 }
   ],
   "tokens": [
-    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 },
     { "addr": "0xc3761EB917CD790B30dAD99f6Cc5b4Ff93C4F9eA", "name": "ERC20", "fullName": "ERC20", "decimals": 18 },
     { "addr": "0x8E870D67F660D95d5be530380D0eC0bd388289E1", "name": "PAX", "fullName": "Paxos Standard", "decimals": 18 },
     { "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", "name": "USDC", "fullName": "USD Coin", "decimals": 18 }
   ],
-  "defaultPair": { "token": "ERC20", "base": "TUSD" }
+  "defaultPair": { "token": "TUSD", "base": "ETH" }
 }
