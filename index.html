@@ -7,14 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="/images/favicon.ico" rel="icon" />
   <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
-  <title>EtherDelta</title>
+  <title>DEX Stable</title>
 <link href="main.6cfdd60c6d0446e78031.css" rel="stylesheet"></head>
 
 <body class="dark">
 
   <nav class="navbar navbar-light navbar-expand-lg">
     <a class="navbar-brand" href="/">
-      ERC20<span class="text-primary">Token</span>
+      DEX<span class="text-primary">Stable</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
       aria-label="Toggle navigation">
@@ -51,6 +51,12 @@
   </nav>
 
   <div class="trading-cont">
+    <div class="vertical">
+      <div class="component component-full">
+        <div class="component-header trn">order_book</div>
+        <div id="orders"></div>
+      </div>
+    </div>
     <div class="vertical-split">
       <div class="component">
         <div class="component-header trn">balance</div>
@@ -72,12 +78,6 @@
           <div role="tabpanel" class="tab-pane active" id="buy"></div>
           <div role="tabpanel" class="tab-pane" id="sell"></div>
         </div>
-      </div>
-    </div>
-    <div class="vertical">
-      <div class="component component-full">
-        <div class="component-header trn">order_book</div>
-        <div id="orders"></div>
       </div>
     </div>
     <div class="vertical-split">
