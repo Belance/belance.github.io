@@ -37,5 +37,5 @@
     { "addr": "0x8dd5fbCe2F6a956C3022bA3663759011Dd51e73E", "name": "TUSD", "fullName": "TrueUSD", "decimals": 18 },
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 }
   ],
-  "defaultPair": { "token": "ETH", "base": "TUSD" }
+  "defaultPair": { "token": "TUSD", "base": "ETH" }
 }
