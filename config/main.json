@@ -44,11 +44,11 @@
   "tokens": [
     {"addr":"0x8dd5fbCe2F6a956C3022bA3663759011Dd51e73E","name":"TUSD","decimals":18},
     {"addr":"0xc3761EB917CD790B30dAD99f6Cc5b4Ff93C4F9eA","name":"ERC20","decimals":18},
-    {"addr":"0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7","name":"1ST","decimals":18},
+    {"addr":"0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a","name":"PPT","decimals":18},
     {"addr":"0x936f78b9852d12f5cb93177c1f84fb8513d06263","name":"GNTW","decimals":18}
   ],
   "defaultPair": {
-    "token": "ERC20",
+    "token": "PPT",
     "base": "TUSD"
   }
 }
