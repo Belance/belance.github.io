@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="/images/favicon.ico" rel="icon" />
   <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
-<link href="/css/menu.css" rel="stylesheet" />
   <title>DEX Stable</title>
 <link href="main.6cfdd60c6d0446e78031.css" rel="stylesheet"></head>
 
@@ -73,36 +72,8 @@
         <div id="chartPrice"></div>
       </div>
    
-<ul class="tabs" role="tablist">
-    <li>
-        <input type="radio" name="tabs" id="tab1" checked />
-        <label for="tab1" 
-               role="tab" 
-               aria-selected="true" 
-               aria-controls="panel1" 
-               tabindex="0">BUY/SELL</label>
-        <div id="tab-content1" 
-             class="tab-content" 
-             role="tabpanel" 
-             aria-labelledby="buysell" 
-             aria-hidden="false">
-          <p>=--</p>
-        </div>
-    </li>
   
-    <li>
-        <input type="radio" name="tabs" id="tab2" />
-        <label for="tab2"
-               role="tab" 
-               aria-selected="false" 
-               aria-controls="panel2" 
-               tabindex="0">Ballance</label>
-        <div id="tab-content2" 
-             class="tab-content"
-             role="tabpanel" 
-             aria-labelledby="ballance" 
-             aria-hidden="true">
-          <p>  
+    
    <div class="component">
         <div class="component-header trn">balance</div>
         <div id="balance"></div>
@@ -118,22 +89,10 @@
               <a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="nav-link trn">sell</a>
             </li>
           </ul>
-        </div></p>
         </div>
-    </li>
- <li>
-        <input type="radio" name="tabs" id="tab3" checked />
-        <label for="tab3" 
-               role="tab" 
-               aria-selected="true" 
-               aria-controls="panel3" 
-               tabindex="0">Your transactions</label>
-        <div id="tab-content3" 
-             class="tab-content" 
-             role="tabpanel" 
-             aria-labelledby="transactions" 
-             aria-hidden="false">
-          <p><div class="component">
+        </div>
+    
+        <div class="component">
         <div class="component-header trn">my_transactions</div>
         <div class="component-tabs nav-header">
           <ul class="nav" role="tablist">
@@ -153,13 +112,8 @@
           <div role="tabpanel" class="tab-pane" id="myOrders"></div>
           <div role="tabpanel" class="tab-pane" id="myFunds"></div>
         </div>
-      </div></p>
+      </div>
         </div>
-    </li>
-
-</ul>
-
-<br style="clear: both;" />
 
     </div>
     <div class="vertical-split">
