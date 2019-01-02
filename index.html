@@ -51,34 +51,18 @@
   </nav>
 
   <div class="trading-cont">
-    <div class="vertical">
+<div class="vertical">
       <div class="component component-full">
         <div class="component-header trn">order_book</div>
         <div id="orders"></div>
       </div>
     </div>
     <div class="vertical-split">
-      
-    
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="buy"></div>
-          <div role="tabpanel" class="tab-pane" id="sell"></div>
-        </div>
-      </div>
-    </div>
-    <div class="vertical-split">
       <div class="component">
-        <div class="component-header trn">price_chart</div>
-        <div id="chartPrice"></div>
-      </div>
-   
-  
-    
-   <div class="component">
         <div class="component-header trn">balance</div>
         <div id="balance"></div>
       </div>
-          <div class="component">
+      <div class="component">
         <div class="component-header trn">buy_sell</div>
         <div class="component-tabs nav-header">
           <ul class="nav" role="tablist">
@@ -90,9 +74,19 @@
             </li>
           </ul>
         </div>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="buy"></div>
+          <div role="tabpanel" class="tab-pane" id="sell"></div>
         </div>
+      </div>
+    </div>
     
-        <div class="component">
+    <div class="vertical-split">
+      <div class="component">
+        <div class="component-header trn">price_chart</div>
+        <div id="chartPrice"></div>
+      </div>
+      <div class="component">
         <div class="component-header trn">my_transactions</div>
         <div class="component-tabs nav-header">
           <ul class="nav" role="tablist">
@@ -113,8 +107,6 @@
           <div role="tabpanel" class="tab-pane" id="myFunds"></div>
         </div>
       </div>
-        </div>
-
     </div>
     <div class="vertical-split">
       <div class="component">
@@ -148,7 +140,7 @@
             </li>
           </ul>
         </div>
-        <div class="tab-content">
+         <div class="tab-content">
           <div role="tabpanel" class="tab-pane active" id="important">
             <div>
               <p class="text-danger">Listing</p>
