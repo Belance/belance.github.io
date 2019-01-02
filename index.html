@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="/images/favicon.ico" rel="icon" />
   <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
-  <link href="/css/menu.css" rel="stylesheet" />
+<link href="/css/menu.css" rel="stylesheet" />
   <title>DEX Stable</title>
 <link href="main.6cfdd60c6d0446e78031.css" rel="stylesheet"></head>
 
@@ -59,22 +59,8 @@
       </div>
     </div>
     <div class="vertical-split">
-      <div class="component">
-        <div class="component-header trn">balance</div>
-        <div id="balance"></div>
-      </div>
-      <div class="component">
-        <div class="component-header trn">buy_sell</div>
-        <div class="component-tabs nav-header">
-          <ul class="nav" role="tablist">
-            <li role="presentation" class="nav-item">
-              <a href="#buy" aria-controls="buy" role="tab" data-toggle="tab" class="active nav-link trn">buy</a>
-            </li>
-            <li role="presentation" claxss="nav-item">
-              <a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="nav-link trn">sell</a>
-            </li>
-          </ul>
-        </div>
+      
+    
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane active" id="buy"></div>
           <div role="tabpanel" class="tab-pane" id="sell"></div>
@@ -86,31 +72,68 @@
         <div class="component-header trn">price_chart</div>
         <div id="chartPrice"></div>
       </div>
-<div class="tabs">
+   
+<ul class="tabs" role="tablist">
+    <li>
+        <input type="radio" name="tabs" id="tab1" checked />
+        <label for="tab1" 
+               role="tab" 
+               aria-selected="true" 
+               aria-controls="panel1" 
+               tabindex="0">BUY/SELL</label>
+        <div id="tab-content1" 
+             class="tab-content" 
+             role="tabpanel" 
+             aria-labelledby="buysell" 
+             aria-hidden="false">
+          <p>=--</p>
+        </div>
+    </li>
   
-  <input type="radio" id="tab1" name="tab-control" checked>
-  <input type="radio" id="tab2" name="tab-control">
-  <input type="radio" id="tab3" name="tab-control">
-  <ul>
-    <li title="BUY/SELL"><label for="tab1" role="button"><br><span>BUY/SELL</span></label></li>
-    <li title="Balance"><label for="tab2" role="button"><br><span>Balance</span></label></li>
-    <li title="Your transactions"><label for="tab3" role="button"><br><span>Your transactions</span></label></li>
-  </ul>
-  
-  <div class="slider"><div class="indicator"></div></div>
-<div class="content">
-    <section>
-          <h2>BUY/SELL</h2>
-      ---- </section>
-        <section>
-          <h2>Balance</h2>
-          ---- </section>
-        <section>
-          <h2>Your transactions</h2>
-         ------ </section>
-  </div>
-</div>
-        <div class="component">
+    <li>
+        <input type="radio" name="tabs" id="tab2" />
+        <label for="tab2"
+               role="tab" 
+               aria-selected="false" 
+               aria-controls="panel2" 
+               tabindex="0">Ballance</label>
+        <div id="tab-content2" 
+             class="tab-content"
+             role="tabpanel" 
+             aria-labelledby="ballance" 
+             aria-hidden="true">
+          <p>  
+   <div class="component">
+        <div class="component-header trn">balance</div>
+        <div id="balance"></div>
+      </div>
+          <div class="component">
+        <div class="component-header trn">buy_sell</div>
+        <div class="component-tabs nav-header">
+          <ul class="nav" role="tablist">
+            <li role="presentation" class="nav-item">
+              <a href="#buy" aria-controls="buy" role="tab" data-toggle="tab" class="active nav-link trn">buy</a>
+            </li>
+            <li role="presentation" claxss="nav-item">
+              <a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="nav-link trn">sell</a>
+            </li>
+          </ul>
+        </div></p>
+        </div>
+    </li>
+ <li>
+        <input type="radio" name="tabs" id="tab3" checked />
+        <label for="tab3" 
+               role="tab" 
+               aria-selected="true" 
+               aria-controls="panel3" 
+               tabindex="0">Your transactions</label>
+        <div id="tab-content3" 
+             class="tab-content" 
+             role="tabpanel" 
+             aria-labelledby="transactions" 
+             aria-hidden="false">
+          <p><div class="component">
         <div class="component-header trn">my_transactions</div>
         <div class="component-tabs nav-header">
           <ul class="nav" role="tablist">
@@ -130,7 +153,14 @@
           <div role="tabpanel" class="tab-pane" id="myOrders"></div>
           <div role="tabpanel" class="tab-pane" id="myFunds"></div>
         </div>
-      </div>
+      </div></p>
+        </div>
+    </li>
+
+</ul>
+
+<br style="clear: both;" />
+
     </div>
     <div class="vertical-split">
       <div class="component">
