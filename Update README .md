@@ -1,0 +1,1 @@
+ERC20 is payment method for Belance platform, future project and application and more. Real token utility. Belance is a large unique blockchain platform which combines many opportunities and connects everyone in the blockchain world.
